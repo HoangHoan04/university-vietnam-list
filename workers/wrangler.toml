@@ -2,9 +2,5 @@ name = "university-list-api"
 main = "src/index.js"
 compatibility_date = "2025-04-01"
 
-[site]
-bucket = "./public"
-
 [env.production]
 name = "university-list-api"
-routes = [{ pattern = "hoanpineapple.com", custom_domain = true }]
