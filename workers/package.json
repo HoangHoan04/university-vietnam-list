@@ -1,0 +1,14 @@
+{
+  "name": "university-list-workers",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && wrangler dev",
+    "deploy": "node scripts/build.mjs && wrangler deploy",
+    "publish": "node scripts/build.mjs && wrangler publish"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
